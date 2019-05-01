@@ -1,0 +1,74 @@
+body {
+  background: rgb(226, 226, 226);
+}
+
+.navbar {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.navright {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 20px;
+}
+
+#latitude {
+  color: white;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-color: rgb(65, 155, 118);
+  border: 3px solid rgb(65, 155, 118);
+  padding: 14px;
+  margin: 0px;
+}
+
+.pagetitle {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: rgb(65, 155, 118);
+}
+
+.pagetext {
+
+}
+
+.scale-down {
+  object-fit: scale-down;
+}
+
+.visualizations {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: rgb(65, 155, 118);
+}
+
+.stageleft {
+  background-color: white;
+  margin-top: 40px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.stageright {
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 30px;
+  padding: 30px;
+}
+
+.thumbnail {
+  margin-bottom: 15px;
+}
+
+.vizbox {
+  border: 3px solid rgb(74, 177, 134);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: darkslategray;
+  text-align: left;
+}
