@@ -1,48 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
   <meta charset="UTF-8">
-  <title>Data Viz Homework</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Visualization 3</title>
+  <link rel="stylesheet" href="../CSS/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  
-  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 
 <body>
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" id="latitude" href="#">Latitude</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button> 
-      <div class="collapse navbar-collapse navright" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Plots</a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Max Temperature</a>
-                  <a class="dropdown-item" href="#">Humidity</a>
-                  <a class="dropdown-item" href="#">Cloudiness</a>
-                  <a class="dropdown-item" href="#">Wind Speed</a>
-                </div>     
-          </li>
-          
-          <li class="nav-item">
-                    <a class="nav-link" href="#">Comparison</a>
-          </li>
-          <li class="nav-item">
-                    <a class="nav-link" href="#">Data</a>  
-          </li>
-        </ul>
-     </div> 
-     </nav>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" id="latitude" href="../index.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navright" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Plots</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="homework viz 1.html">Max Temperature</a>
+            <a class="dropdown-item" href="homework viz 2.html">Humidity</a>
+            <a class="dropdown-item" href="homework viz 3.html">Cloudiness</a>
+            <a class="dropdown-item" href="homework viz 4.html">Wind Speed</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="homework comparisons.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="homework data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 
 
@@ -52,17 +61,24 @@
         <h1 class="pagetitle">
           Cloudiness
         </h1>
-        
+
         <div>
-          <img src="Resources/assets/images/Fig3.png" alt="Cloudiness" class="scale-down" style="width:100%">  
+          <img src="../Resources/assets/images/Fig3.png" alt="Cloudiness" class="scale-down" style="width:100%">
         </div>
-                                   
+
         <h6 class="pagetext">
-          Latitude and cloudiness lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada consequat dolor, nec porttitor neque fringilla vitae. Quisque lacinia tortor vel massa blandit tincidunt. Sed ornare augue nec consectetur iaculis. Vivamus vulputate ultricies dignissim. Integer vehicula quis massa at finibus. Ut blandit massa ante, sed viverra felis mollis ut. Donec venenatis nec ex sed ornare. Nunc mollis urna vel ornare faucibus. Phasellus ornare lectus auctor risus gravida, et ornare tellus malesuada. Sed interdum a mauris quis sodales. Maecenas quis accumsan urna, ut blandit nunc. Nulla mattis ante quam, et luctus lectus tincidunt condimentum. Nunc ornare ipsum ut ligula maximus, a placerat augue efficitur. Nulla semper vel velit ac imperdiet. Nullam euismod erat at laoreet pulvinar. Cras ut malesuada magna, et ullamcorper dolor.
+          Latitude and cloudiness lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada consequat
+          dolor, nec porttitor neque fringilla vitae. Quisque lacinia tortor vel massa blandit tincidunt. Sed ornare
+          augue nec consectetur iaculis. Vivamus vulputate ultricies dignissim. Integer vehicula quis massa at finibus.
+          Ut blandit massa ante, sed viverra felis mollis ut. Donec venenatis nec ex sed ornare. Nunc mollis urna vel
+          ornare faucibus. Phasellus ornare lectus auctor risus gravida, et ornare tellus malesuada. Sed interdum a
+          mauris quis sodales. Maecenas quis accumsan urna, ut blandit nunc. Nulla mattis ante quam, et luctus lectus
+          tincidunt condimentum. Nunc ornare ipsum ut ligula maximus, a placerat augue efficitur. Nulla semper vel velit
+          ac imperdiet. Nullam euismod erat at laoreet pulvinar. Cras ut malesuada magna, et ullamcorper dolor.
         </h6>
       </article>
 
-      
+
       <article class="col-md-4 stageright container">
         <h2 class="visualizations">
           Visualizations
@@ -71,36 +87,36 @@
         <div class="row">
           <div class="col-md-6">
             <div class="thumbnail">
-                <a href="Resources/assets/images/Fig1.png">
-                <img src="Resources/assets/images/Fig1.png" alt="Max Temperature" class="img-thumbnail" />
-                </a>
-            </div>            
+              <a href="homework viz 1.html">
+                <img src="../Resources/assets/images/Fig1.png" alt="Max Temperature" class="img-thumbnail" />
+              </a>
+            </div>
           </div>
           <div class="col-md-6">
             <div class="thumbnail">
-                <a href="Resources/assets/images/Fig2.png">
-                <img src="Resources/assets/images/Fig2.png" alt="Humidity" class="img-thumbnail">
-                </a>              
-            </div>            
+              <a href="homework viz 2.html">
+                <img src="../Resources/assets/images/Fig2.png" alt="Humidity" class="img-thumbnail">
+              </a>
+            </div>
           </div>
         </div>
 
         <div class="row">
-            <div class="col-md-6">
-              <div class="thumbnail vizbox">
-                  <a href="Resources/assets/images/Fig3.png">
-                  <img src="Resources/assets/images/Fig3.png" alt="Cloudiness" class="img-thumbnail" />
-                  </a>
-              </div>            
+          <div class="col-md-6">
+            <div class="thumbnail vizbox">
+              <a href="homework viz 3.html">
+                <img src="../Resources/assets/images/Fig3.png" alt="Cloudiness" class="img-thumbnail" />
+              </a>
             </div>
-            <div class="col-md-6">
-              <div class="thumbnail">
-                  <a href="Resources/assets/images/Fig4.png">
-                  <img src="Resources/assets/images/Fig4.png" alt="Wind Speed" class="img-thumbnail">
-                  </a>
-              </div>            
+          </div>
+          <div class="col-md-6">
+            <div class="thumbnail">
+              <a href="homework viz 4.html">
+                <img src="../Resources/assets/images/Fig4.png" alt="Wind Speed" class="img-thumbnail">
+              </a>
             </div>
-          </div>      
+          </div>
+        </div>
       </article>
 
     </div>
@@ -111,4 +127,5 @@
   <div class="footer">&copy; 2019 Rosina Tao Dodd</div>
 
 </footer>
+
 </html>
