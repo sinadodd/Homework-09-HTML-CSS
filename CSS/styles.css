@@ -5,14 +5,20 @@ body {
 .navbar {
   padding-top: 0px;
   padding-bottom: 0px;
+  padding-left: 50px;
 }
 
-.navright {
+.navbar-nav {
   position: absolute;
+  right: 50px;
+}
+/* 
+.navright {
+  
   right: 0px;
   width: 300px;
   padding: 20px;
-}
+} */
 
 #latitude {
   color: white;
